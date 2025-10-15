@@ -1,0 +1,266 @@
+{
+  "workbench.iconTheme": "vscode-icons-mac",
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+  "vsicons.projectDetection.autoReload": true,
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "breadcrumbs.enabled": false,
+  "window.titleBarStyle": "custom",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+
+  // ===================================================================
+  // == 1. CUSTOMIZAÇÃO DA INTERFACE (WORKBENCH)                     ==
+  // ===================================================================
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0A0B0E",
+    "sideBar.background": "#0A0B0E",
+    "panel.background": "#0A0B0E",
+    "statusBar.background": "#0A0B0E",
+
+    "activityBar.background": "#16181F",
+
+    "editorGutter.background": "#00000044",
+    "editorGroupHeader.tabsBackground": "#0A0B0E",
+    "tab.inactiveBackground": "#0A0B0E",
+    "breadcrumb.focusForeground": "#282B35",
+    "breadcrumb.activeSelectionForeground": "#282B35",
+    "panelTitle.activeForeground": "#0A0B0E",
+
+    // Barra de Título (File, Edit, Selection...)
+    "activityBar.foreground": "#ffffff",
+    "list.activeSelectionForeground": "#ffffff",
+
+    "titleBar.activeForeground": "#F8F8F2", // Cor do texto com a janela ativa
+    "titleBar.inactiveBackground": "#191A21", // Fundo da barra com a janela inativa
+    "titleBar.inactiveForeground": "#6c717d", // Cor do texto com a janela inativa
+    "titleBar.border": "#00000000", // Cor da borda inferior (aqui transparente)
+
+    // Cores Gerais da Interface
+    "foreground": "#F8F8F2", // Cor do texto geral (ex: na tela de boas-vindas)
+    "focusBorder": "#a6afff80", // Borda ao focar em um elemento (abas, painéis)
+    "editorWidget.background": "#181820", // O fundo geral da caixa de busca
+    "editorWidget.border": "#5476ff", // A cor da borda ao redor de toda a caixa
+    "input.background": "#272732", // Fundo da caixa onde você digita "status"
+    "input.foreground": "#F8F8F2", // Cor do texto que você digita
+    "input.border": "#00000000", // Borda da caixa de input (aqui, transparente)
+    "input.placeholderForeground": "#6c717d", // Cor do texto de exemplo (placeholder)
+    "widget.shadow": "#00000055", // Sombra de widgets como o 'Localizar'
+    "selection.background": "#44475A", // Cor de fundo de texto selecionado na interface
+    "errorForeground": "#FF5555", // Cor para textos de erro
+
+    "editorLineNumber.activeForeground": "#ffffff",
+    // Barra de Atividades (à esquerda, com os ícones)
+
+    "activityBar.activeBackground": "#181820",
+
+    "activityBar.activeBorder": "#00000000",
+    "activityBar.inactiveForeground": "#6c717d", // Cor dos ícones inativos
+    "activityBar.border": "#00000000", // Borda que separa a barra do resto
+    "activityBarBadge.background": "#5476ff", // Fundo da bolinha de notificação (ex: git)
+    "activityBarBadge.foreground": "#F8F8F2", // Texto dentro da bolinha de notificação
+
+    // Barra Lateral (Explorador de Arquivos)
+
+    "sideBar.foreground": "#F8F8F2",
+    "sideBar.border": "#00000000",
+    "sideBarTitle.foreground": "#F8F8F2", // Título (ex: 'EXPLORER')
+    "sideBarSectionHeader.background": "#0a0a0e", // Fundo de seções (ex: 'PORTFOLIO')
+    "sideBarSectionHeader.foreground": "#F8F8F2",
+    "sideBarSectionHeader.border": "#191A2100", // Borda da seção (aqui transparente)
+
+    // Listas e Árvores (Arquivos no explorador, sugestões, etc)
+    "list.activeSelectionBackground": "#a6afff40", // Fundo do item selecionado e focado
+
+    "list.inactiveSelectionBackground": "#a6afff20", // Fundo do item selecionado mas sem foco
+    "list.focusBackground": "#a6afff40", // Fundo do item focado (com o teclado)
+    "list.hoverBackground": "#a6afff10",
+    "list.focusOutline": "#00000000",
+    "list.highlightForeground": "#8BE9FD", // Cor do texto para itens destacados (ex: busca)
+    "tree.indentGuidesStroke": "#44475A", // Cor das linhas de indentação da árvore
+    // Exemplo trocando a cor rosa por um tom de ciano
+    "progressBar.background": "#5476ff",
+
+    // Editor de Código
+    "editor.background": "#16181F", // Fundo principal do editor
+    "editor.foreground": "#F8F8F2", // Cor do texto padrão
+    "editorLineNumber.foreground": "#6c717d", // Cor dos números das linhas
+
+    "editorCursor.foreground": "#F8F8F2", // Cor do cursor piscando
+    "editor.selectionBackground": "#44475A", // Fundo do texto selecionado
+    "editor.inactiveSelectionBackground": "#44475A88", // Seleção quando o editor não está em foco
+    "editor.wordHighlightBackground": "#44475A88", // Outras ocorrências da palavra selecionada
+    "editor.findMatchBackground": "#FFB86C", // Resultado de busca atual
+    "editor.findMatchHighlightBackground": "#efff3c66", // Outros resultados de busca
+    "editor.lineHighlightBackground": "#44475A55", // Fundo da linha atual
+    "editorWhitespace.foreground": "#44475A", // Cor dos pontos/setas de espaços e tabs
+    "editorIndentGuide.background1": "#cbcffe70", // Guias de indentação
+    "editorIndentGuide.activeBackground1": "#cbcffe", // Guia de indentação do bloco atual
+    "editorRuler.foreground": "#44475A", // Cor da régua vertical (se ativada)
+
+    // Abas
+
+    "tab.activeBackground": "#16181F", // Fundo da aba ativa
+    "tab.activeForeground": "#F8F8F2",
+    // Fundo das abas inativas
+    "tab.inactiveForeground": "#6c717d",
+    "tab.hoverBackground": "#ffffff10",
+    "tab.border": "#191A21", // Borda que separa as abas
+    "tab.activeBorderTop": "#00000000", // Borda de destaque da aba ativa
+
+    // Painel Inferior (Terminal, Problemas, Saída)
+
+    "panel.border": "#00000000",
+    "panelTitle.activeBorder": "#5476ff",
+    "panelTitle.inactiveForeground": "#6c717d",
+
+    // Barra de Status (na parte inferior da janela)
+
+    "statusBar.foreground": "#F8F8F2",
+    "statusBar.noFolderBackground": "#191A21", // Fundo quando nenhuma pasta está aberta
+    "statusBar.debuggingBackground": "#FF5555", // Fundo quando em modo de depuração
+    "statusBar.debuggingForeground": "#F8F8F2",
+    "statusBarItem.remoteBackground": "#5476ff",
+
+    // Breadcrumb
+    "breadcrumb.background": "#0a0a0e", // Cor de fundo da barra
+    "breadcrumb.foreground": "#6c717d", // Cor do texto normal (inativo)
+
+    // Terminal
+    "terminal.background": "#16181F",
+    "terminal.foreground": "#F8F8F2",
+    "terminal.ansiBlack": "#21222C",
+    "terminal.ansiRed": "#ff4444",
+    "terminal.ansiGreen": "#3aff6c",
+    "terminal.ansiYellow": "#F1FA8C",
+    "terminal.ansiBlue": "#b37dff",
+    "terminal.ansiMagenta": "#f85fb6",
+    "terminal.ansiCyan": "#79e6ff",
+    "terminal.ansiWhite": "#F8F8F2",
+    "terminal.ansiBrightBlack": "#6c717d",
+    "terminal.ansiBrightRed": "#ff5d5d",
+    "terminal.ansiBrightGreen": "#58ff88",
+    "terminal.ansiBrightYellow": "#FFFFA5",
+    "terminal.ansiBrightBlue": "#D6ACFF",
+    "terminal.ansiBrightMagenta": "#ff82da",
+    "terminal.ansiBrightCyan": "#A4FFFF",
+    "terminal.ansiBrightWhite": "#2a2d37",
+
+    // Controles de interface (botões, dropdowns)
+    "button.background": "#44475A",
+    "button.foreground": "#F8F8F2",
+    "button.hoverBackground": "#5a5d75",
+    "dropdown.background": "#0a0a0e",
+    "dropdown.listBackground": "#383A45",
+    "dropdown.border": "#191A21"
+  },
+
+  // ===================================================================
+  // == 2. CUSTOMIZAÇÃO DO CÓDIGO (SYNTAX HIGHLIGHTING)              ==
+  // ===================================================================
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Comentários",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "#6c717d", "fontStyle": "italic" }
+      },
+      {
+        "name": "Strings de texto",
+        "scope": ["string", "punctuation.definition.string"],
+        "settings": { "foreground": "#F1FA8C" }
+      },
+      {
+        "name": "Números",
+        "scope": "constant.numeric",
+        "settings": { "foreground": "#BD93F9" }
+      },
+      {
+        "name": "Constantes e Variáveis 'this', 'self'",
+        "scope": ["constant.language", "variable.language.this"],
+        "settings": { "foreground": "#BD93F9", "fontStyle": "bold" }
+      },
+      {
+        "name": "Palavras-chave (if, else, for, function, const, let)",
+        "scope": ["keyword", "storage.type", "storage.modifier"],
+        "settings": { "foreground": "#FF79C6" }
+      },
+      {
+        "name": "Operadores (=, +, -, *, &&, ||)",
+        "scope": "keyword.operator",
+        "settings": { "foreground": "#FF79C6" }
+      },
+      {
+        "name": "Nomes de Funções e Métodos",
+        "scope": [
+          "entity.name.function",
+          "support.function",
+          "meta.function-call"
+        ],
+        "settings": { "foreground": "#50FA7B" }
+      },
+      {
+        "name": "Variáveis, Parâmetros e Propriedades de Objetos",
+        "scope": [
+          "variable",
+          "meta.definition.variable.js",
+          "support.variable",
+          "variable.parameter",
+          "variable.other.property"
+        ],
+        "settings": { "foreground": "#F8F8F2" }
+      },
+      {
+        "name": "Nomes de Classes, Tipos e Interfaces",
+        "scope": [
+          "entity.name.type",
+          "entity.name.class",
+          "entity.name.interface",
+          "support.class"
+        ],
+        "settings": { "foreground": "#8BE9FD", "fontStyle": "italic" }
+      },
+      {
+        "name": "Tags HTML/XML",
+        "scope": "entity.name.tag",
+        "settings": { "foreground": "#FF79C6" }
+      },
+      {
+        "name": "Atributos de Tags HTML/XML",
+        "scope": "entity.other.attribute-name",
+        "settings": { "foreground": "#50FA7B" }
+      },
+      {
+        "name": "Marcadores de Pontuação ({, }, (, ), [, ])",
+        "scope": "punctuation",
+        "settings": { "foreground": "#F8F8F2" }
+      },
+      {
+        "name": "JSON - Chaves",
+        "scope": "support.type.property-name.json",
+        "settings": { "foreground": "#8BE9FD" }
+      },
+      {
+        "name": "Markdown - Títulos",
+        "scope": "markup.heading",
+        "settings": { "foreground": "#FF79C6", "fontStyle": "bold" }
+      },
+      {
+        "name": "Markdown - Negrito",
+        "scope": "markup.bold",
+        "settings": { "foreground": "#F1FA8C", "fontStyle": "bold" }
+      },
+      {
+        "name": "Markdown - Itálico",
+        "scope": "markup.italic",
+        "settings": { "foreground": "#F1FA8C", "fontStyle": "italic" }
+      },
+      {
+        "name": "Markdown - Links",
+        "scope": "markup.underline.link",
+        "settings": { "foreground": "#BD93F9" }
+      }
+    ]
+  }
+}

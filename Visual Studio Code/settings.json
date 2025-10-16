@@ -15,6 +15,7 @@
   "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "update.showReleaseNotes": false,
   "editor.formatOnSave": true,
+  "terminal.integrated.stickyScroll.enabled": false,
 
   // ==========================================================================================
 

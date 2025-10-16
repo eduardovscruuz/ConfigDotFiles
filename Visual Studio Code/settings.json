@@ -6,7 +6,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
   "editor.fontFamily": "FiraCode Nerd Font, MesloLGS Nerd Font, monospace",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
@@ -15,6 +14,8 @@
   "breadcrumbs.enabled": false,
   "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "update.showReleaseNotes": false,
+  "editor.formatOnSave": true,
+
   // ==========================================================================================
 
   // DESTAQUES: #0088FF (AZUL)
@@ -86,6 +87,7 @@
     "activityBar.activeBorder": "#0088FF",
     "tab.activeBorderTop": "#0088FF",
     "editorIndentGuide.activeBackground1": "#0088FF",
+    "settings.modifiedItemIndicator": "#0088FF",
     "selection.background": "#0088FF40",
 
     // =========================== CUSTOMIZAÇÃO TEXTO ATIVO ==========================
@@ -152,9 +154,29 @@
 
     "debugConsole": "default",
     "editorWhitespace.foreground": "default",
-
     "button.hoverBackground": "default",
-    "dropdown.listBackground": "default",
+    "dropdown.listBackground": "#000000",
+
+    // ====================== ABA DE CONFIGURAÇÕES (Settings UI) ======================
+    "settings.dropdownBorder": "#00000000",
+    "settings.headerBorder": "#00000000",
+    "settings.textInputBorder": "#00000000",
+    "settings.numberInputBorder": "#00000000",
+    "settings.sashBorder": "#00000000",
+    "settings.dropdownListBorder": "#00000000",
+    "settings.headerForeground": "#FEFEFE",
+    "settings.dropdownForeground": "#FEFEFE",
+    "settings.numberInputForeground": "#FEFEFE",
+    "settings.textInputForeground": "#FEFEFE",
+    "settings.checkboxForeground": "#FEFEFE",
+    "settings.dropdownBackground": "#262F41",
+    "settings.textInputBackground": "#262F41",
+    "settings.numberInputBackground": "#262F41",
+    "settings.checkboxBackground": "#262F41",
+    "settings.focusedRowBorder": "#0088FF",
+    "settings.checkboxBorder": "#0088FF",
+    "settings.rowHoverBackground": "#262F4160",
+    "settings.focusedRowBackground": "#262F4180",
 
     // =========================== CUSTOMIZAÇÃO DO TERMINAL ===========================
     "terminal.foreground": "#F8F8F2",

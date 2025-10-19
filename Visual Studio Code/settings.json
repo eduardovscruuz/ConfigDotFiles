@@ -15,6 +15,8 @@
   "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "update.showReleaseNotes": false,
   "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
 
   // ==========================================================================================
 
@@ -49,7 +51,7 @@
     "tab.hoverBackground": "#262F41",
     "dropdown.background": "#262F41",
     "editor.rangeHighlightBackground": "#262F41fe",
-
+    "statusBar.noFolderBackground": "#262F41",
     // =========================== CUSTOMIZAÇÃO DA INTERFACE COR #2 ===========================
 
     "sideBar.background": "#141B28",
@@ -62,7 +64,7 @@
     "editorGutter.background": "#0B1119",
     "activityBar.activeBackground": "#0B1119",
     "titleBar.inactiveBackground": "#0B1119",
-    "statusBar.noFolderBackground": "#0B1119",
+
     "list.inactiveSelectionBackground": "#0B111980",
 
     // =========================== CUSTOMIZAÇÃO DA INTERFACE COR #4 ===========================
